@@ -1,0 +1,83 @@
+.banner-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .banner-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bannercard-logo {
+    width: 130px;
+  }
+  .bannercard-text {
+    margin: 0px;
+    color: #475569;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .bannercard-btn {
+    height: 40px;
+    width: 100px;
+    border: 1px solid #475569;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #475569;
+    font-weight: 600;
+  }
+  .bannercard-close {
+    color: #475569;
+    font-size: 24px;
+  }
+  .bannerclose-btn {
+    align-self: flex-start;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+  }
+  
+  /* Styling for Large Devices*/
+  @media screen and (min-width: 768px) {
+    .banner-card {
+      height: 200px;
+      background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+      padding: 25px;
+      background-size: cover;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .banner-details {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .bannercard-logo {
+      width: 150px;
+    }
+    .bannercard-text {
+      margin: 0px;
+      color: #475569;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .bannercard-btn {
+      height: 40px;
+      width: 100px;
+      border: 1px solid #475569;
+      border-radius: 2px;
+      background-color: transparent;
+      color: #475569;
+      font-weight: 600;
+    }
+    .bannercard-close {
+      color: #475569;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+  

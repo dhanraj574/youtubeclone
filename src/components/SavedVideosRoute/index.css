@@ -1,0 +1,219 @@
+/* Styling for Small Devices*/
+
+/* Light Theme Styling */
+
+.saved-section {
+    min-height: 100vh;
+  
+    background-color: #f9f9f9;
+  }
+  .saved-topcont {
+    background-color: #f1f1f1;
+    display: flex;
+  
+    gap: 10px;
+    padding: 15px;
+  }
+  .saved-logocont {
+    align-self: center;
+    background-color: #d7dfe9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .saved-heading {
+    align-self: center;
+    margin: 0px;
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .nosavedvideos-head{
+    align-self: center;
+    margin: 0px;
+    color:#1e293b;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  /* Dark Theme Styling*/
+  
+  .saved-section-dark {
+    min-height: 100vh;
+  
+    background-color: #0f0f0f;
+  }
+  .saved-topcont-dark {
+    background-color: #181818;
+  
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+  }
+  .saved-logocont-dark {
+    align-self: center;
+    background-color: #0f0f0f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .saved-heading-dark {
+    align-self: center;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .nosavedvideos-head-dark{
+    align-self: center;
+    margin: 0px;
+    color:   #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+ 
+  
+  /* Common Styling */
+  
+  .saved-main-cont {
+    display: flex;
+  }
+  
+  .saved-cont {
+    margin-top: 60px;
+    width: 100vw;
+  }
+  .saved-logo {
+    align-self: center;
+    font-size: 28px;
+    color: #ff0b37;
+  }
+  .savedvideo-listcont {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .saved-failureview-cont {
+    width: 100vw;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 15px;
+  }
+  .saved-loader-container {
+    width: 100vw;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .nosavedvideos-img {
+    width: 50%;
+    align-self: center;
+  }
+  .nosavedvideos-text {
+    margin: 0px;
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 400;
+    align-self: center;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .savedvideo-listcont {
+      list-style-type: none;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+  }
+  
+  /* Styling for Medium and Large Devices*/
+  
+  @media screen and (min-width: 768px) {
+    .nosavedvideos-head{
+      font-size: 26px;
+      
+    }
+    .nosavedvideos-head-dark{
+      font-size: 26px;
+      
+    }
+  
+   
+    .saved-cont {
+      margin-top: 60px;
+      margin-left: 200px;
+      width: calc(100vw - 200px);
+    }
+    .saved-topcont {
+      width: calc(100vw - 200px);
+      gap: 20px;
+      padding: 20px 40px;
+    }
+    .saved-topcont-dark {
+      width: calc(100vw - 200px);
+      gap: 20px;
+      padding: 20px 40px;
+    }
+    .saved-logocont {
+      height: 80px;
+      width: 80px;
+    }
+    .saved-logocont-dark {
+      height: 80px;
+      width: 80px;
+    }
+    .saved-logo {
+      font-size: 34px;
+    }
+    .saved-failureview-cont {
+      width: 100vw;
+      margin-left: 200px;
+      height: calc(100vh - 60px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      gap: 20px;
+    }
+    .saved-loader-container {
+      width: 100vw;
+      margin-left: 200px;
+      height: calc(100vh - 60px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .savedvideo-listcont {
+      list-style-type: none;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+    .nosavedvideos-img {
+      width: 40%;
+      align-self: center;
+    }
+    .nosavedvideos-text {
+      margin: 0px;
+      font-size: 16px;
+      color: #64748b;
+      font-weight: 400;
+      align-self: center;
+    }
+  }
+  

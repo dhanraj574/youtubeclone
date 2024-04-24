@@ -1,0 +1,187 @@
+/* Styling for very Small Devices  */
+
+/* Light Theme Styling */
+
+.HomeVideoItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    gap: 0px;
+    text-decoration: none;
+  }
+  .video-title {
+    margin: 0px;
+    font-size: 12px;
+    color: #1e293b;
+    font-weight: 500;
+  }
+  
+  /* Dark Theme Styling */
+  
+  .HomeVideoItem-dark {
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    gap: 0px;
+    text-decoration: none;
+  }
+  .video-title-dark {
+    margin: 0px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  /* Common Styling */
+  .home-thumbnail {
+    width: 100%;
+  }
+  
+  .video-details {
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+  .channelprofile-img {
+    height: 30px;
+    width: 30px;
+  }
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .channel-details {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .channel-name {
+    margin: 0px;
+    font-size: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  .like-dateposted-cont {
+    display: flex;
+    gap: 10px;
+  }
+  .video-likes {
+    margin: 0px;
+    font-size: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  .video-dateposted {
+    margin: 0px;
+    font-size: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  
+  /* Styling for small Devices*/
+  
+  @media screen and (min-width: 576px) {
+    /* Light Theme Styling */
+  
+    .HomeVideoItem {
+      width: 48%;
+  
+      display: flex;
+      flex-direction: column;
+      background-color: #f9f9f9;
+      gap: 0px;
+    }
+  
+    /* Light Theme Styling */
+  
+    .HomeVideoItem-dark {
+      width: 48%;
+  
+      display: flex;
+      flex-direction: column;
+      background-color: #181818;
+      gap: 10px;
+    }
+    /* Common Styling */
+    .video-details {
+      height: 100px;
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+    }
+    .channel-details {
+      display: flex;
+      flex-direction: column;
+    }
+    .profile-details {
+      display: block;
+    }
+  }
+  
+  /* Styling for Medium and Large Devices*/
+  
+  @media screen and (min-width: 992px) {
+    /* Light Theme Styling */
+  
+    .HomeVideoItem {
+      width: 32%;
+  
+      display: flex;
+      flex-direction: column;
+      background-color: #f9f9f9;
+      gap: 0px;
+    }
+  
+    /* Light Theme Styling */
+  
+    .HomeVideoItem-dark {
+      width: 32%;
+  
+      display: flex;
+      flex-direction: column;
+      background-color: #181818;
+      gap: 10px;
+    }
+    /* Common Styling */
+    .video-details {
+      height: 120px;
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+    }
+  }
+  
+  /* Styling very Large Devices*/
+  @media screen and (min-width: 1440px) {
+    /* Light Theme Styling */
+    .video-title {
+      font-size: 14px;
+    }
+  
+    /* Dark Theme Styling */
+    .video-title-dark {
+      font-size: 14px;
+    }
+    /* Common Styling */
+    .channel-name {
+      margin: 0px;
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 400;
+    }
+    .video-likes {
+      margin: 0px;
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 400;
+    }
+    .video-dateposted {
+      margin: 0px;
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 400;
+    }
+  }
+  

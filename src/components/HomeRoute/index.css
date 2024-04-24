@@ -1,0 +1,236 @@
+/* Home Styling */
+
+.home-section {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  .home-section-dark {
+    min-height: 100vh;
+    background-color: #181818;
+  }
+  .home-content {
+    display: flex;
+  }
+  .home-videossection {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 60px;
+  }
+  .home-videossection-dark {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 60px;
+  }
+  
+  /* Styling for very Small Devices */
+  
+  /* Success View Styling*/
+  
+  /* Light Theme Styling*/
+  .homevideos-cont {
+    background-color: #f9f9f9;
+  }
+  .failureview-head {
+    align-self: center;
+    margin: 0px;
+    font-size: 16px;
+    color: #1e293b;
+    font-weight: 500;
+  }
+  .search-input {
+    color: #000000;
+    padding: 10px;
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    background-color: transparent;
+    outline: 0px;
+  }
+  
+  /* Dark Theme Styling*/
+  
+  .homevideos-cont-dark {
+    background-color: #181818;
+  }
+  .failureview-head-dark {
+    margin: 0px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    align-self: center;
+  }
+  .search-input-dark {
+    color: #ffffff;
+    padding: 10px;
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    background-color: transparent;
+    outline: 0px;
+  }
+  
+  /* Common Styling*/
+  .search-outer-cont {
+    padding: 20px 10px;
+    padding-bottom: 10px;
+  }
+  .search-cont {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    border: 1px solid #909090;
+    border-radius: 2px;
+  }
+  
+  .search-icon {
+    align-self: center;
+    color: #909090;
+    font-size: 18px;
+  }
+  .search-btn {
+    height: 30px;
+    width: 80px;
+    border: 1px solid #909090;
+    padding: 5px;
+    align-self: center;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+  }
+  .videolist-cont {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .failureview-cont {
+    height: 55vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .failure-img {
+    align-self: center;
+    width: 150px;
+  }
+  .failure-text {
+    text-align: center;
+    align-self: center;
+    margin: 0px;
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 500;
+  }
+  .retry-btn {
+    align-self: center;
+    height: 35px;
+    width: 80px;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #4f46e5;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .loader-container {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  /* Styling for Small Devices*/
+  
+  @media screen and (min-width: 576px) {
+    .home-videossection {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      margin-top: 60px;
+    }
+  
+    .videolist-cont {
+      padding: 20px;
+      padding-top: 0px;
+      list-style-type: none;
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .search-outer-cont {
+      width: 400px;
+      padding: 20px 20px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  /* Styling for medium and large Devices*/
+  
+  @media screen and (min-width: 768px) {
+    .home-videossection {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      margin-top: 60px;
+      margin-left: 200px;
+    }
+    .home-videossection-dark {
+      margin-left: 200px;
+    }
+    .videolist-cont {
+      padding: 20px;
+      padding-top: 0px;
+      list-style-type: none;
+      justify-content: stretch;
+      display: flex;
+      flex-direction: row;
+  
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .search-outer-cont {
+      width: 500px;
+      padding: 20px 20px;
+      padding-bottom: 10px;
+    }
+    .failure-img {
+      align-self: center;
+      width: 200px;
+    }
+    .failure-text {
+      text-align: center;
+      align-self: center;
+      margin: 0px;
+      font-size: 14px;
+      color: #64748b;
+      font-weight: 500;
+    }
+    .failureview-head {
+      align-self: center;
+      margin: 0px;
+      font-size: 20px;
+      color: #1e293b;
+      font-weight: 500;
+    }
+    .failureview-head-dark {
+      align-self: center;
+      margin: 0px;
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  }
+  

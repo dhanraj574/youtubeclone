@@ -1,0 +1,107 @@
+/* Styling for Small Devices */
+
+/* Light Theme Styling */
+.notfound-section {
+    background-color: #f9f9f9;
+    height: calc(100vh - 60px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .notfound-heading {
+    margin: 0px;
+    align-self: center;
+    font-size: 16px;
+    color: #212121;
+  }
+  .notfound-text {
+    margin: 0px;
+    align-self: center;
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 500px;
+  }
+  
+  /* Dark Theme Styling */
+  .notfound-section-dark {
+    background-color: #181818;
+    height: calc(100vh - 60px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .notfound-heading-dark {
+    margin: 0px;
+    align-self: center;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .notfound-text-dark {
+    margin: 0px;
+    align-self: center;
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 500px;
+  }
+  
+  /*  Common Styling */
+  .notfound-img {
+    align-self: center;
+    width: 250px;
+  }
+  .not-found {
+    display: flex;
+  }
+  
+  /* Styling for Large Devices */
+  
+  @media screen and (min-width: 768px) {
+    /* Light Theme Styling */
+  
+    .notfound-heading {
+      margin: 0px;
+      align-self: center;
+      font-size: 24px;
+      color: #212121;
+    }
+    .notfound-text {
+      margin: 0px;
+      align-self: center;
+      font-size: 14px;
+      color: #64748b;
+      font-weight: 500px;
+    }
+  
+    /* Dark Theme Styling */
+  
+    .notfound-heading-dark {
+      margin: 0px;
+      align-self: center;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    .notfound-text-dark {
+      margin: 0px;
+      align-self: center;
+      font-size: 14px;
+      color: #64748b;
+      font-weight: 500px;
+    }
+  
+    /* Common Styling */
+  
+    .notfound-img {
+      align-self: center;
+      width: 400px;
+      cursor: default;
+    }
+  }
+  

@@ -1,0 +1,183 @@
+/* Styling for very Small Devices  */
+
+/* Light Theme Styling */
+
+.savedVideoItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    gap: 0px;
+  }
+  .savedvideo-title {
+    margin: 0px;
+    font-size: 12px;
+    color: #1e293b;
+    font-weight: 500;
+  }
+  
+  /* Dark Theme Styling */
+  
+  .savedVideoItem-dark {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    gap: 0px;
+  }
+  .savedvideo-title-dark {
+    margin: 0px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  /* Common Styling */
+  .savedvideo-routelink {
+    text-decoration: none;
+  }
+  .saved-home-thumbnail {
+    width: 100vw;
+    height: 180px;
+  }
+  
+  .savedvideo-details {
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+  .savedchannel-profileimg {
+    height: 30px;
+    width: 30px;
+  }
+  .savedprofile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .savedchannel-details {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .savedchannel-name {
+    margin: 0px;
+    font-size: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  .savedlike-dateposted-cont {
+    display: flex;
+    gap: 10px;
+  }
+  .savedvideo-likes {
+    margin: 0px;
+    font-size: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  .savedvideo-dateposted {
+    margin: 0px;
+    font-size: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  
+  /* Styling for small Devices*/
+  
+  @media screen and (min-width: 576px) {
+    /* Light Theme Styling */
+  
+    .savedVideoItem {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      gap: 0px;
+    }
+  
+    /* Dark Theme Styling */
+  
+    .savedVideoItem-dark {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      gap: 0px;
+    }
+    /* Common Styling */
+    .savedvideo-details {
+      height: 100px;
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+    }
+    .savedchannel-details {
+      display: flex;
+      flex-direction: column;
+    }
+    .savedchannel-profileimg {
+      display: none;
+    }
+    .savedprofile-details {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .saved-home-thumbnail {
+      width: 300px;
+      height: 180px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .saved-home-thumbnail {
+      width: 300px;
+      height: 180px;
+    }
+  }
+  /* Styling for Medium and Large Devices*/
+  
+  @media screen and (min-width: 992px) {
+    /* Light Theme Styling */
+  
+    .savedVideoItem {
+      display: flex;
+      flex-direction: row;
+  
+      gap: 0px;
+    }
+    .savedvideo-title {
+      font-size: 16px;
+    }
+  
+    /* Dark Theme Styling */
+  
+    .savedVideoItem-dark {
+      display: flex;
+      flex-direction: row;
+  
+      gap: 0px;
+    }
+    .savedvideo-title-dark {
+      font-size: 16px;
+    }
+  
+    /* Common Styling */
+    .savedvideo-details {
+      height: 120px;
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+    }
+    .savedchannel-profileimg {
+      display: none;
+    }
+    .savedchannel-name {
+      font-size: 12px;
+    }
+  
+    .savedvideo-likes {
+      font-size: 12px;
+    }
+    .savedvideo-dateposted {
+      font-size: 12px;
+    }
+  }
+  

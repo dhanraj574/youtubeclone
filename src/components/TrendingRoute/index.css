@@ -1,0 +1,172 @@
+/* Styling for Small Devices*/
+
+/* Light Theme Styling */
+
+.trending-section {
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: #f9f9f9;
+  }
+  .trending-topcont {
+    background-color: #f1f1f1;
+    display: flex;
+  
+    gap: 10px;
+    padding: 15px;
+  }
+  .trending-logocont {
+    align-self: center;
+    background-color: #d7dfe9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .trending-heading {
+    align-self: center;
+    margin: 0px;
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* Dark Theme Styling*/
+  
+  .trending-section-dark {
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: #0f0f0f;
+  }
+  .trending-topcont-dark {
+    background-color: #181818;
+  
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+  }
+  .trending-logocont-dark {
+    align-self: center;
+    background-color: #0f0f0f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .trending-heading-dark {
+    align-self: center;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* Common Styling */
+  
+  .trending-main-cont {
+    display: flex;
+  }
+  
+  .trending-cont {
+    width: 100vw;
+    margin-top: 60px;
+  }
+  .trendingfire-logo {
+    align-self: center;
+    font-size: 28px;
+    color: #ff0b37;
+  }
+  .trendingvideo-listcont {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .trending-failureview-cont {
+    width: 100vw;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 15px;
+  }
+  .trending-loader-container {
+    width: 100vw;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .trendingvideo-listcont {
+      list-style-type: none;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+}
+  
+  /* Styling for Medium and Large Devices*/
+  
+  @media screen and (min-width: 768px) {
+    
+    .trending-cont{
+        margin-top: 60px;
+        
+        margin-left: 200px; 
+    }
+    .trending-topcont {
+      gap: 20px;
+      padding: 20px 40px;
+    }
+    .trending-topcont-dark {
+      gap: 20px;
+      padding: 20px 40px;
+    }
+    .trending-logocont {
+      height: 80px;
+      width: 80px;
+    }
+    .trending-logocont-dark {
+      height: 80px;
+      width: 80px;
+    }
+    .trendingfire-logo {
+      font-size: 34px;
+    }
+    .trending-failureview-cont {
+      width: 100vw;
+      margin-left: 200px;
+      height: calc(100vh - 60px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      gap: 20px;
+    }
+    .trending-loader-container {
+      width: 100vw;
+      margin-left: 200px;
+      height: calc(100vh - 60px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .trendingvideo-listcont {
+      list-style-type: none;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+  }
+  
